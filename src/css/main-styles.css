@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: rgb(19, 17, 17);
+    color: white;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Topo*/
+.top-banner{
+    display: flex;
+    flex-direction: column;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -10;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0px 60px;
+    align-items: center;
+}
+
+heade h1 {
+    color: aqua;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 35px;
+    font-size: 22px;
+}
+
+
+/*box banner*/
+
+.box-banner{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item-banner{
+    width: 40%;
+    height: 30%;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.box-item-1{
+
+    background-color: rgba(241, 230, 230, 0.925);
+}
