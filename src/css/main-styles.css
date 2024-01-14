@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 * {
@@ -9,7 +8,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: rgb(19, 17, 17);
@@ -46,6 +47,7 @@ header {
     height: 10vh;
     padding: 0px 60px;
     align-items: center;
+    position: fixed;
 }
 
 heade h1 {
@@ -146,3 +148,53 @@ header a {
     width: 40%;
     height: 60%;
 }
+<<<<<<< HEAD
+
+
+/*main*/
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+main .about{
+    margin: auto;
+    align-items: center;
+    padding: 2.5em;
+    max-width: 80%;;
+    height: 60%;
+    background-color: rgba(0, 5, 34, 0.767);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgb(77, 76, 76);
+}
+
+main .about h2{
+    font-size: 3em;
+    font-weight: 200;
+    text-align: center;
+}
+
+main .about h2 span{
+    color: rgb(255, 0, 0);
+    font-weight: 300;
+}
+
+
+main .about h3{
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+main .about p{
+    font-size: 1.2em;
+    font-weight: 200;
+    text-indent: 2.5em;
+    text-align: justify;
+}
+=======
+>>>>>>> a21194e97c2bcdfcc7742354f72b302d287af3ff
